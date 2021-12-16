@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 80px 120px;
+    background: #F5F5F5;
+}
+
+h1 {
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #333333;
+}
+
+.columns {
+    display: flex;
+    margin-top: 72px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    padding: 16px 8px 8px;
+
+    background: #ffffff;
+    border-radius: 16px;
+
+    max-width: 250px;
+    width: 100%;
+    min-height: 958px;
+}
+
+.column h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    margin-bottom: 30px;
+}
+
+.column div {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.column ul {
+    list-style-position: inside;
+}
+
+.column .list-1 {
+    margin-bottom: 310px;
+}
+
+.column .list-2,
+.column .list-3 {
+    margin-bottom: 46px;
+}
+
+.column-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    max-width: 224px;
+    width: 100%;
+}
+
+.card-operation {
+    display: flex;
+
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.card-operation > span {
+    display: flex;
+
+    width: 160px;
+
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.card-operation .charter {
+    justify-content: center;
+
+    background: #E6E6E6;
+}
+
+.column-operations.p100 .card-operation:nth-child(1) {
+    margin-bottom: 70px;
+}
+
+.card-operation .crm {
+    gap: 7px;
+
+    background: #EAE8F3;
+    color: #595284;
+}
+
+.column-operations.p100 .card-operation:nth-child(2) {
+    margin-bottom: 8px;
+}
+
+.column-operations.p100 .card-operation:nth-child(3) {
+    margin-bottom: 150px;
+}
+
+.card-operation .quote {
+    gap: 7px;
+
+    color: #244983;
+    background: #E1EAF8;
+}
+
+.column-operations.p100 .card-operation:nth-child(4) {
+    margin-bottom: 8px;
+}
+
+.card-operation .confirm {
+    gap: 6px;
+
+    color: #48AA27;
+    background: #E9FAE3;
+}
+
+.column-operations.p100 .card-operation:nth-child(5) {
+    margin-bottom: 36px;
+}
+
+.column-operations.p100 .card-operation:nth-child(6) {
+    margin-bottom: 12px;
+}
+
+.column-operations.p100 .card-operation:nth-child(7) {
+    margin-bottom: 12px;
+}
+
+.card-operation .payment {
+    gap: 6px;
+
+    color: #00C77F;
+    background: #E9FDF7;
+
+}
+
+.column-operations.p100 .card-operation:nth-child(8) {
+    margin-bottom: 54px;
+}
+
+.column .awery {
+    color: #E60000;
+    margin-bottom: 24px;
+}
+
+.column p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-bottom: 4px;
+}
+
+.column .arrow {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+}
+
+.column > span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.column > .p50-8 {
+    padding: 50px 8px;
+}
+
+.column > .p28-8 {
+    padding: 28px 8px;
+}
+
+.column > .p34-8 {
+    padding: 34px 8px;
+}
+
+.p100 {
+    padding: 100px 0 0;
+}
+
+.p230 {
+    padding: 230px 0 0;
+}
+
+.column-operations.p230 .card-operation:nth-child(1) {
+    margin-bottom: 22px;
+}
+
+.column-operations.p230 .card-operation:nth-child(2) {
+    margin-bottom: 187px;
+}
+
+.column-operations.p230 .card-operation:nth-child(3) {
+    margin-bottom: 60px;
+}
+
+.column-operations.p230 .card-operation:nth-child(4) {
+    margin-bottom: 8px;
+}
+
+.column-operations.p230 .card-operation:nth-child(5) {
+    margin-bottom: 60px;
+}
+
+.column .operators {
+    color: #1E73F9;
+    margin-bottom: 166px;
+}
+
+.column .list_1 {
+    margin-bottom: 12px;
+}
+
+.column .secure-link {
+    margin-bottom: 160px;
+}
+
+.column .list_2 {
+    margin-bottom: 54px;
+}
+
+.column .list_3 {
+    margin-bottom: 65px;
+}
